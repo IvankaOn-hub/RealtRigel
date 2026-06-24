@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900" role="img" aria-labelledby="title desc">
+  <title id="title">Test building facade detail</title>
+  <desc id="desc">A square stylized commercial building facade used for gallery testing.</desc>
+  <rect width="900" height="900" fill="#fbf9f6"/>
+  <rect x="120" y="90" width="660" height="720" rx="30" fill="#ffffff" stroke="#ded6cf" stroke-width="5"/>
+  <rect x="185" y="155" width="160" height="150" rx="18" fill="#1e6161"/>
+  <rect x="385" y="155" width="160" height="150" rx="18" fill="#d9e4df"/>
+  <rect x="585" y="155" width="120" height="150" rx="18" fill="#ff8f57"/>
+  <rect x="185" y="350" width="520" height="70" rx="18" fill="#1e2326"/>
+  <rect x="185" y="470" width="160" height="150" rx="18" fill="#f4ede9"/>
+  <rect x="385" y="470" width="160" height="150" rx="18" fill="#1e6161"/>
+  <rect x="585" y="470" width="120" height="150" rx="18" fill="#f4ede9"/>
+  <rect x="330" y="680" width="240" height="130" rx="20" fill="#ff8f57"/>
+  <text x="450" y="855" text-anchor="middle" fill="#7f7972" font-family="Arial, sans-serif" font-size="26" font-weight="700">Facade detail</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="820" viewBox="0 0 1400 820" role="img" aria-labelledby="title desc">
+  <title id="title">Test office interior wide</title>
+  <desc id="desc">A stylized commercial office interior used for article layout testing.</desc>
+  <rect width="1400" height="820" fill="#f4ede9"/>
+  <rect x="80" y="70" width="1240" height="680" rx="34" fill="#ffffff" stroke="#ded6cf" stroke-width="4"/>
+  <rect x="130" y="120" width="430" height="270" rx="24" fill="#1e6161"/>
+  <rect x="590" y="120" width="680" height="270" rx="24" fill="#fbf9f6" stroke="#ded6cf" stroke-width="3"/>
+  <rect x="170" y="160" width="145" height="190" rx="16" fill="#ff8f57"/>
+  <rect x="340" y="160" width="175" height="190" rx="16" fill="#f4ede9"/>
+  <rect x="650" y="175" width="560" height="34" rx="17" fill="#d9e4df"/>
+  <rect x="650" y="245" width="420" height="24" rx="12" fill="#ded6cf"/>
+  <rect x="650" y="300" width="500" height="24" rx="12" fill="#ded6cf"/>
+  <rect x="130" y="430" width="1140" height="260" rx="24" fill="#fbf9f6" stroke="#ded6cf" stroke-width="3"/>
+  <rect x="185" y="500" width="260" height="92" rx="18" fill="#1e2326"/>
+  <rect x="485" y="500" width="260" height="92" rx="18" fill="#ff8f57"/>
+  <rect x="785" y="500" width="380" height="92" rx="18" fill="#1e6161"/>
+  <text x="700" y="735" text-anchor="middle" fill="#7f7972" font-family="Arial, sans-serif" font-size="32" font-weight="700">RealtRigel media test</text>
+</svg>

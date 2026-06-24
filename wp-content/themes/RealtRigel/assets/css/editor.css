@@ -1,0 +1,120 @@
+@import url("../fonts/Roboto/stylesheet.css");
+
+/* Gutenberg editor foundation for frontend-like previews. */
+
+:root,
+.editor-styles-wrapper {
+	--rtg-container: 1920px;
+	--rtg-gap: 1rem;
+	--rtg-container-padding: 60px;
+	--rtg-radius-xl: 40px;
+	--rtg-radius-pill: 100px;
+	--font-family-base: "Roboto", sans-serif;
+	--font-weight-light: 300;
+	--font-weight-normal: 400;
+	--font-weight-medium: 500;
+	--font-weight-semibold: 600;
+	--font-weight-bold: 700;
+	--font-weight-extrabold: 800;
+	--font-size-text-large: 1.25rem;      
+	--font-size-text-medium: 1.125rem;    
+	--font-size-text-regular: 1rem;       
+	--font-size-text-small: .875rem;      
+	--font-size-text-tiny: .75rem;        
+	--line-height-text: 1.5;
+	--font-size-heading-1: 2.5rem;    
+	--line-height-heading-1: 1.2;
+	--font-size-heading-2: 2.25rem;   
+	--line-height-heading-2: 1.2;
+	--font-size-heading-3: 2rem;      
+	--line-height-heading-3: 1.2;
+	--font-size-heading-4: 1.5rem;    
+	--line-height-heading-4: 1.4;
+	--font-size-heading-5: 1.25rem;   
+	--line-height-heading-5: 1.4;
+	--font-size-heading-6: 1.125rem;  
+	--line-height-heading-6: 1.4;
+	--select-chevron-size: 0.75rem;
+	--select-chevron-offset: 1.2125rem;
+	--select-chevron-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' fill='none'%3E%3Cpath d='M2.25 4.5 6 8.25 9.75 4.5' stroke='%231e2326' stroke-width='1.75' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+	--color-page-bg: #f4ede9;
+	--color-surface: #ffffff;
+	--color-surface-soft: #fbf9f6;
+	--color-surface-muted: #f0ece7;
+	--color-text: #1e2326;
+	--color-text-muted: #7f7972;
+	--color-text-soft-muted: #807971;
+	--color-border: #e6dfd7;
+	--color-border-strong: #d9d0c8;
+	--color-accent: #ff8f57;
+	--color-accent-hover: #ff9b62;
+	--color-accent-strong: var(--color-accent);
+	--color-accent-soft: #fff0e2;
+	--color-white: #ffffff;
+	--color-backdrop: rgba(30, 35, 38, 0.85);
+	--shadow-soft: 0 0.25rem 0.75rem rgba(28, 23, 18, 0.04), 0 1rem 2.5rem rgba(28, 23, 18, 0.06);
+	--shadow-soft-hover: 0 24px 56px rgba(28, 23, 18, 0.12);
+	--rr-properties-bg: var(--color-page-bg);
+	--rr-properties-card: var(--color-surface);
+	--rr-properties-surface-soft: var(--color-surface-soft);
+	--rr-properties-surface-muted: var(--color-surface-muted);
+	--rr-properties-border: var(--color-border);
+	--rr-properties-border-strong: var(--color-border-strong);
+	--rr-properties-text: var(--color-text);
+	--rr-properties-muted: var(--color-text-muted);
+	--rr-properties-accent: var(--color-accent);
+	--rr-properties-accent-strong: var(--color-accent-strong);
+	--rr-properties-accent-soft: var(--color-accent-soft);
+	--rr-properties-shadow: var(--shadow-soft);
+	--rr-properties-shadow-hover: var(--shadow-soft-hover);
+	--rr-search-bg: var(--color-surface);
+	--rr-search-surface: var(--color-surface-soft);
+	--rr-search-surface-strong: var(--color-surface);
+	--rr-search-border: var(--color-border);
+	--rr-search-border-strong: var(--color-border-strong);
+	--rr-search-text: var(--color-text);
+	--rr-search-muted: var(--color-text-muted);
+	--rr-search-accent: var(--color-accent);
+	--rr-search-accent-strong: var(--color-accent-strong);
+	--rr-search-shadow: var(--shadow-soft);
+}
+
+@media (min-width: 768px) {
+	:root {
+		--font-size-heading-1: 3.5rem; 
+		--font-size-heading-2: 3rem;   
+		--font-size-heading-3: 2.5rem; 
+		--font-size-heading-4: 2rem;   
+		--font-size-heading-5: 1.5rem; 
+		--font-size-heading-6: 1.25rem;
+
+		--line-height-heading-1: 1.2;
+		--line-height-heading-2: 1.2;
+		--line-height-heading-3: 1.2;
+		--line-height-heading-4: 1.3;
+		--line-height-heading-5: 1.4;
+		--line-height-heading-6: 1.4;
+	}
+}
+
+.editor-styles-wrapper {
+	background: var(--color-page-bg);
+	color: var(--color-text);
+	font-family: var(--font-family-base);
+	font-size: var(--font-size-text-regular);
+	line-height: var(--line-height-text);
+}
+
+.editor-styles-wrapper .wp-block {
+	box-sizing: border-box;
+}
+
+.editor-styles-wrapper .wp-block[data-align="wide"],
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties,
+.editor-styles-wrapper .wp-block-realtrigel-catalog-search {
+	max-width: min(1180px, calc(100vw - 96px));
+}
+
+.editor-styles-wrapper .wp-block[data-align="full"] {
+	max-width: none;
+}

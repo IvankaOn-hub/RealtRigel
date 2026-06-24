@@ -1,0 +1,95 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "realtrigel/catalog-properties",
+	"version": "1.1.4",
+	"title": "Объекты недвижимости",
+	"category": "widgets",
+	"icon": "building",
+	"description": "Выводит объекты недвижимости из каталога.",
+	"keywords": [ "каталог", "объекты", "недвижимость" ],
+	"textdomain": "realtrigel-core",
+	"editorScript": "file:./index.js",
+	"viewScript": "file:./view.js",
+	"style": "file:./style.css",
+	"editorStyle": "file:./editor.css",
+	"attributes": {
+		"title": {
+			"type": "string",
+			"default": "Объекты недвижимости"
+		},
+		"showTitle": {
+			"type": "boolean",
+			"default": true
+		},
+		"itemsToShow": {
+			"type": "number",
+			"default": 6
+		},
+		"layoutRules": {
+			"type": "array",
+			"default": [
+				{
+					"minWidth": 576,
+					"columns": 2
+				},
+				{
+					"minWidth": 960,
+					"columns": 3
+				}
+			]
+		},
+		"columnsMobile": {
+			"type": "number",
+			"default": 1
+		},
+		"columnsTablet": {
+			"type": "number",
+			"default": 2
+		},
+		"columnsDesktop": {
+			"type": "number",
+			"default": 3
+		},
+		"breakpointTablet": {
+			"type": "number",
+			"default": 576
+		},
+		"breakpointDesktop": {
+			"type": "number",
+			"default": 960
+		},
+		"columns": {
+			"type": "number",
+			"default": 3
+		},
+		"showExcerpt": {
+			"type": "boolean",
+			"default": true
+		},
+		"mediaMode": {
+			"type": "string",
+			"default": "featured"
+		},
+		"buttonLabel": {
+			"type": "string",
+			"default": "Смотреть объект"
+		},
+		"blockId": {
+			"type": "string",
+			"default": ""
+		},
+		"navigationMode": {
+			"type": "string",
+			"default": "none"
+		},
+		"orderBy": {
+			"type": "string",
+			"default": "date"
+		}
+	},
+	"supports": {
+		"html": false,
+		"align": [ "wide", "full" ]
+	}
+}

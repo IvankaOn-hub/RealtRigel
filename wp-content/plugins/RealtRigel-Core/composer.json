@@ -1,0 +1,6 @@
+{
+    "require": {
+        "enshrined/svg-sanitize": "^0.22.0",
+        "bacon/bacon-qr-code": "3.0"
+    }
+}

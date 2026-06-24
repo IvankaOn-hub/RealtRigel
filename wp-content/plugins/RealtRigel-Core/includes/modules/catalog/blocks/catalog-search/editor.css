@@ -1,0 +1,34 @@
+.editor-styles-wrapper .wp-block-realtrigel-catalog-search {
+	width: min(1180px, calc(100vw - 96px));
+	min-height: 120px;
+	padding: 1.25rem;
+	border: 1px solid color-mix(in srgb, var(--color-border) 76%, transparent);
+	border-radius: 24px;
+	background: var(--color-page-bg);
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45);
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-search .components-placeholder {
+	min-height: 120px;
+	border-radius: 18px;
+	background: var(--color-surface);
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-search .rr-catalog-search-block {
+	width: 100%;
+	max-width: 1180px;
+	margin: 0 auto;
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-search .rr-catalog-search-block__title,
+.editor-styles-wrapper .wp-block-realtrigel-catalog-search .rr-catalog-search-form {
+	font-family: var(--font-family-base);
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-search .rr-catalog-search-form {
+	pointer-events: none;
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-search .rr-location-search__results {
+	display: none;
+}

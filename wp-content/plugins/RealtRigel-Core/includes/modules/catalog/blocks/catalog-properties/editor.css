@@ -1,0 +1,109 @@
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties {
+	width: min(1180px, calc(100vw - 96px));
+	min-height: 120px;
+	padding: 1.25rem;
+	border: 1px solid color-mix(in srgb, var(--color-border) 76%, transparent);
+	border-radius: 24px;
+	background: var(--color-page-bg);
+	box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.45);
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .components-placeholder {
+	min-height: 120px;
+	border-radius: 18px;
+	background: var(--color-surface);
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-editor-preview-canvas {
+	--rr-editor-preview-scale: 1;
+	--rr-editor-preview-height: auto;
+	position: relative;
+	width: 100%;
+	height: var(--rr-editor-preview-height);
+	min-height: 160px;
+	overflow: hidden;
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-editor-preview-stage {
+	width: 1920px;
+	max-width: none;
+	padding-bottom: 2rem;
+	transform: scale(var(--rr-editor-preview-scale));
+	transform-origin: top left;
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-properties-block {
+	width: 100%;
+	max-width: none;
+	margin: 0 auto;
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-properties-card__detail-row {
+	grid-template-columns: max-content minmax(8rem, 1fr);
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-properties-block__title {
+	font-family: var(--font-family-base);
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-properties-card {
+	min-width: 0;
+	padding-bottom: 1rem;
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-properties-card__title {
+	min-height: auto;
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-properties-card__content {
+	padding-bottom: 1.55rem;
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-properties-card:hover {
+	transform: none;
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-properties-card__media {
+	min-height: 0;
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-properties-card__media img {
+	max-width: none;
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-properties-card__link {
+	pointer-events: none;
+	min-height: 2.7rem;
+	width: calc(100% - 1.5rem);
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0.5rem 0.65rem;
+	font-size: 0.95rem;
+	line-height: 1.1;
+	white-space: nowrap;
+	box-shadow: none;
+}
+
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-properties-block__pagination,
+.editor-styles-wrapper .wp-block-realtrigel-catalog-properties .rr-properties-block__load-more {
+	display: none !important;
+}
+
+.rr-properties-layout-rules {
+	display: grid;
+	gap: 0.75rem;
+}
+
+.rr-properties-layout-rules p {
+	margin: 0;
+	color: #646970;
+	font-size: 12px;
+	line-height: 1.45;
+}
+
+.rr-properties-layout-rule {
+	padding: 12px;
+	border: 1px solid #dcdcde;
+	border-radius: 8px;
+	background: #ffffff;
+}

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="620" viewBox="0 0 900 620" role="img" aria-labelledby="title desc">
+  <title id="title">Test floor plan card</title>
+  <desc id="desc">A stylized commercial floor plan used for Gutenberg media testing.</desc>
+  <rect width="900" height="620" fill="#f4ede9"/>
+  <rect x="70" y="65" width="760" height="490" rx="28" fill="#ffffff" stroke="#ded6cf" stroke-width="5"/>
+  <path d="M170 155h250v135H170zM470 155h190v135H470zM170 340h160v115H170zM380 340h280v115H380z" fill="#fbf9f6" stroke="#1e2326" stroke-width="5"/>
+  <path d="M420 220h52M330 398h52" stroke="#ff8f57" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="700" cy="420" r="44" fill="#1e6161"/>
+  <circle cx="700" cy="420" r="18" fill="#ff8f57"/>
+  <text x="450" y="585" text-anchor="middle" fill="#7f7972" font-family="Arial, sans-serif" font-size="24" font-weight="700">Layout and zoning test</text>
+</svg>

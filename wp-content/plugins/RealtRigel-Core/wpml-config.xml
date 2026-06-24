@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wpml-config>
+	<custom-types>
+		<custom-type translate="1">catalog</custom-type>
+	</custom-types>
+
+	<taxonomies>
+		<taxonomy translate="1">property_type</taxonomy>
+		<taxonomy translate="1">property_deal_type</taxonomy>
+		<taxonomy translate="1">property_location</taxonomy>
+		<taxonomy translate="1">property_feature</taxonomy>
+	</taxonomies>
+
+	<custom-fields>
+		<custom-field action="copy">price</custom-field>
+		<custom-field action="copy">currency</custom-field>
+		<custom-field action="copy">area</custom-field>
+		<custom-field action="copy">floor</custom-field>
+		<custom-field action="copy">calculate_price_per_meter</custom-field>
+		<custom-field action="translate">parameter_pairs</custom-field>
+		<custom-field action="translate">parameter_pairs_%_label</custom-field>
+		<custom-field action="translate">parameter_pairs_%_value</custom-field>
+		<custom-field action="copy">map_address</custom-field>
+		<custom-field action="copy">map_lat</custom-field>
+		<custom-field action="copy">map_lng</custom-field>
+		<custom-field action="copy">map_show_exact_location</custom-field>
+		<custom-field action="copy">gallery</custom-field>
+		<custom-field action="copy">media_gallery</custom-field>
+		<custom-field action="copy">media_gallery_%_media</custom-field>
+		<custom-field action="copy">downloads</custom-field>
+		<custom-field action="translate">downloads_%_title</custom-field>
+		<custom-field action="copy">downloads_%_file</custom-field>
+		<custom-field action="copy">features</custom-field>
+		<custom-field action="translate">social_description</custom-field>
+	</custom-fields>
+</wpml-config>

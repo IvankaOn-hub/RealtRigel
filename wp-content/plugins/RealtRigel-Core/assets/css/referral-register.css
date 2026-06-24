@@ -1,0 +1,229 @@
+.rr-referral-register {
+	padding: 48px 0;
+}
+
+.rr-referral-register__shell {
+	display: grid;
+	grid-template-columns: minmax(0, 1.1fr) minmax(320px, 480px);
+	gap: 32px;
+	max-width: 1160px;
+	margin: 0 auto;
+	padding: 0 24px;
+}
+
+.rr-referral-register__intro {
+	padding: 48px;
+	border: 1px solid var(--color-border);
+	border-radius: 28px;
+	background: var(--gradient-brand-deep);
+	box-shadow: var(--shadow-soft);
+}
+
+.rr-referral-register__eyebrow {
+	margin: 0 0 16px;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.14em;
+	text-transform: uppercase;
+	color: var(--color-accent);
+}
+
+.rr-referral-register__intro h2 {
+	margin-bottom: 16px;
+	color: #fff;
+}
+
+.rr-referral-register__intro > p:not(.rr-referral-register__eyebrow) {
+	max-width: 38rem;
+	color: #fff;
+}
+
+.rr-referral-register__panel {
+	padding: 32px;
+	border: 1px solid var(--color-border);
+	border-radius: 28px;
+	background: rgba(255, 255, 255, 0.94);
+	box-shadow: var(--shadow-soft);
+}
+
+.rr-referral-register__switcher {
+	display: grid;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+	gap: 10px;
+	margin-bottom: 20px;
+	padding: 6px;
+	border-radius: 999px;
+	background: var(--color-surface-soft);
+}
+
+.rr-referral-register__switch {
+	padding: 12px 16px;
+	border: 0;
+	border-radius: 999px;
+	background: transparent;
+	color: var(--color-text-muted);
+	font: inherit;
+	font-weight: 700;
+	cursor: pointer;
+	transition: background var(--rtg-transition), color var(--rtg-transition), box-shadow var(--rtg-transition);
+}
+
+.rr-referral-register__switch.is-active {
+	background: var(--color-surface);
+	color: var(--color-text);
+	box-shadow: var(--shadow-soft);
+}
+
+.rr-referral-register__panes {
+	display: grid;
+}
+
+.rr-referral-register__pane.is-active {
+	display: block;
+}
+
+.rr-referral-register__form {
+	display: grid;
+	gap: 18px;
+}
+
+.rr-referral-register__field {
+	display: grid;
+	gap: 8px;
+}
+
+.rr-referral-register__field span {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.rr-referral-register__field input {
+	width: 100%;
+	padding: 14px 16px;
+	border: 1px solid var(--color-border);
+	border-radius: 14px;
+	background: var(--color-surface-soft);
+	font: inherit;
+	color: var(--color-text);
+}
+
+.rr-referral-register__field input:focus {
+	outline: none;
+	border-color: var(--color-accent);
+	box-shadow: var(--ring-accent);
+	background: var(--color-surface);
+}
+
+.rr-referral-register__checkbox {
+	display: flex;
+	align-items: flex-start;
+	gap: 12px;
+	font-size: 14px;
+	color: var(--color-text-muted);
+}
+
+.rr-referral-register__trap {
+	position: absolute;
+	left: -9999px;
+	width: 1px;
+	height: 1px;
+	overflow: hidden;
+}
+
+.rr-referral-register__checkbox input {
+	margin-top: 3px;
+	accent-color: var(--color-accent);
+}
+
+.rr-referral-register__submit {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	padding: 14px 18px;
+	border: 0;
+	border-radius: 999px;
+	background: var(--color-accent);
+	color: #fff;
+	text-decoration: none;
+	font: inherit;
+	font-weight: 700;
+	cursor: pointer;
+	box-shadow: var(--shadow-accent);
+	transition: transform var(--rtg-transition), box-shadow var(--rtg-transition), filter var(--rtg-transition);
+}
+
+.rr-referral-register__submit:hover,
+.rr-referral-register__submit:focus {
+	transform: translateY(-1px);
+	filter: saturate(1.05);
+}
+
+.rr-referral-register__notice {
+	margin-bottom: 18px;
+	padding: 14px 16px;
+	border-radius: 16px;
+	font-size: 14px;
+}
+
+.rr-referral-register__notice ul {
+	margin: 0;
+	padding-left: 18px;
+}
+
+.rr-referral-register__notice--success {
+	background: rgba(35, 118, 64, 0.1);
+	color: var(--color-status-success);
+}
+
+.rr-referral-register__notice--error {
+	background: rgba(196, 58, 47, 0.1);
+	color: var(--color-status-error);
+}
+
+.rr-referral-register__helper {
+	margin: 18px 0 0;
+	font-size: 14px;
+	color: var(--color-text-muted);
+}
+
+.rr-referral-register__secondary-link {
+	color: var(--color-accent);
+	font-weight: 600;
+}
+
+.rr-referral-register__link-button {
+	padding: 0;
+	border: 0;
+	background: transparent;
+	color: var(--color-accent);
+	font: inherit;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.rr-referral-register__link-button:hover,
+.rr-referral-register__link-button:focus {
+	text-decoration: underline;
+}
+
+.rr-referral-register--state {
+	max-width: 720px;
+	margin: 40px auto;
+	padding: 24px;
+	border: 1px solid var(--color-border);
+	border-radius: 20px;
+	background: var(--color-surface);
+}
+
+@media (max-width: 920px) {
+	.rr-referral-register__shell {
+		grid-template-columns: 1fr;
+		padding: 0 16px;
+	}
+
+	.rr-referral-register__intro,
+	.rr-referral-register__panel {
+		padding: 24px;
+		border-radius: 22px;
+	}
+}
