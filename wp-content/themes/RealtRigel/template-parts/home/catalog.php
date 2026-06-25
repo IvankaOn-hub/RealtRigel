@@ -24,6 +24,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 		</div>
 
         <div class="rtg-slider-wrap">
+            <div class="rtg-slider__nav">
+                    <button data-slider-prev type="button" aria-label="Poprzedni slajd">
+                        <i class="fa-solid fa-angle-left"></i>
+                    </button>
+
+                    <button data-slider-next type="button" aria-label="Następny slajd">
+                        <i class="fa-solid fa-angle-right"></i>
+                    </button>
+                </div>
             <div class="rtg-slider swiper" data-slider="catalog">
                 <div class="swiper-wrapper">
 
@@ -484,15 +493,7 @@ if ( ! defined( 'ABSPATH' ) ) {
                 </div>
 
             </div>
-             <div class="rtg-slider__nav">
-                    <button data-slider-prev type="button" aria-label="Poprzedni slajd">
-                        <i class="fa-solid fa-angle-left"></i>
-                    </button>
-
-                    <button data-slider-next type="button" aria-label="Następny slajd">
-                        <i class="fa-solid fa-angle-right"></i>
-                    </button>
-                </div>
+                
 
                 <div class="rtg-slider__bottom">
                     <div class="swiper-pagination"></div>

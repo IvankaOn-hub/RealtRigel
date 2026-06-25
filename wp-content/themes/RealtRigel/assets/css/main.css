@@ -1171,15 +1171,10 @@ h2{
 }
 
 .rtg-slider__nav {
-	position: absolute;
-	top: 50%;
-	left: -1.5rem;
-	right: -1.5rem;
-	z-index: 10;
 	display: flex;
-	justify-content: space-between;
-	margin-top: 0;
-	transform: translateY(-50%);
+	justify-content: center;
+	gap: 1.5rem;
+
 }
 
 .rtg-slider__nav button {
@@ -1939,6 +1934,17 @@ h2{
 }
 
 @media (min-width: 768px) {
+	.rtg-slider__nav {
+	position: absolute;
+	top: 50%;
+	left: -1.5rem;
+	right: -1.5rem;
+	z-index: 10;
+	justify-content: space-between;
+	margin-top: 0;
+	transform: translateY(-50%);
+	}
+
 	h2{
 		margin-left: 10px;
 	}
